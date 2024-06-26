@@ -31,8 +31,6 @@ def insert_data():
     else:
         messagebox.showerror("Błąd", "Wszystkie pola muszą być wypełnione.")
 
-root = tk.Tk()
-root.title("Wprowadzanie danych")
 
 tk.Label(root, text="Imię:").grid(row=0, column=0, padx=10, pady=5)
 tk.Label(root, text="Nazwisko:").grid(row=1, column=0, padx=10, pady=5)
